@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.main-container{
+    width: 950px;
+    margin: 10px auto;
+    background-color:lightsteelblue;
+
+}
+
+.prodotto{
+    min-height: 500px;
+    width: 33%;
+    background-color: lightblue;
+    position: relative;
+}
+
+.prodotto img{
+    max-width: 100%;
+    
+}
+
+.badge{
+    padding: 5px ;
+    position: absolute;
+    top: 80%;
+    
+}
+
+.sconto{
+    background-color: greenyellow;
+    left: 0px;
+}
+
+.sostenibilità{
+    
+    background-color: lightcoral;
+    left: 50px;
+}
+
+.wish-list{
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px ;
+    padding: 6px 12px;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
