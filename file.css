@@ -15,10 +15,10 @@ h2{
 }
 
 .main-container{
-    width: 950px;
+    width: 1000px;
     margin: 10px auto;
     background-color:lightsteelblue;
-
+    
 }
 small{
     text-decoration: line-through;
@@ -26,14 +26,16 @@ small{
 
 .prodotto{
     overflow: hidden;
-
+    word-spacing: 10px;
     border-radius:3px ;
     margin-bottom: 10px;
     display: inline-block;
     min-height: 500px;
-    width: 33%;
+    width:  30% ;
     background-color: white;
     position: relative;
+    margin: auto;
+    
 }
 
 .prodotto img{
@@ -45,8 +47,9 @@ small{
     color: white;
     padding: 5px 10px;
     position: absolute;
-    top: 78%;
+    bottom: 10px;
     border-radius: 5px;
+    z-index: 10;
     
 }
 
@@ -70,6 +73,7 @@ small{
     position: absolute;
     top: 10px;
     right: 0px;
+    z-index: 10;
 }
 
 .prezzo{
@@ -90,9 +94,19 @@ span:first-child{
     height: 100%;
     top: 0px;
     left: 0px;
+   /*  display: none; */
+}
+
+.hover-photo{
     display: none;
 }
 
-.img-overlay:hover{
+.prodotto:hover .hover-photo{
     display: block;
+    
 }
+.foto-badge{
+    position: relative;
+    
+}
+
